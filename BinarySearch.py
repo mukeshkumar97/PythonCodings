@@ -7,7 +7,7 @@ def search(list, n):
         mid = (l + u) // 2
 
         if list[mid] == n:
-            globals() ['pos'] = mid
+            globals() ['pos'] = mid     #globals() is used to access global variable
             return True
         else:
             if list[mid] < n:
