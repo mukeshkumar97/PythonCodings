@@ -9,6 +9,7 @@ def sort(nums):
         temp = nums[i]
         nums[i] = nums[minpos]
         nums[minpos] = temp
+        print(nums)
 
 n = int(input("Enter the length of the list: "))
 mklist = []
